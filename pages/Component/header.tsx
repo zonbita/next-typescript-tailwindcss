@@ -13,7 +13,7 @@ export default function Header(){
     return( 
     <>
      <header className='w-full flex justify-center items-center md:px-10 absolute z-50 background-color box-shadow-1  text-white p-[14px] px-2'>
-        <title>ZONBITA PAGE</title> 
+        <title>ZONBITA | FULLSTACK</title> 
         <link rel="icon" href="/favicon.ico" />
 
               <nav className="flex w-screen">

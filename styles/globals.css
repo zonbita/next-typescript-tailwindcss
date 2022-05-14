@@ -12,9 +12,13 @@ body,
 html {
   padding:0;
   margin:0;
-font-family: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+  font-family: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
 }
 
+h2{
+  font-size: large;
+  font-weight: 800;
+}
 
 .menu-headerLink{
     @apply uppercase w-36 px-3 text-center my-auto text-white hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#2ebb9c] md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700;
