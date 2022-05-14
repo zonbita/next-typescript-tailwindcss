@@ -2,15 +2,43 @@
 @tailwind components;
 @tailwind utilities;
 
+@import"https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap";
+@import"https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap";
+@import"https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap";
+@import"https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap";
+@import"https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap";
+
+body,
+html {
+  padding:0;
+  margin:0;
+font-family: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+}
+
+
 .menu-headerLink{
-    font-family: "Roboto", sans-serif;
-    @apply uppercase w-36 px-3 text-center my-auto text-white hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700;
+    @apply uppercase w-36 px-3 text-center my-auto text-white hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#2ebb9c] md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700;
 }
 
 .background-color{
-    background-color: darkviolet;
+    background: linear-gradient(#146b89, #053245)
 }
 
+.box-shadow-1{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -15px inset;
+}
+
+.box-shadow-2{
+    box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
+}
+
+.box-shadow-3{
+    box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px, rgb(255, 85, 85) 0px 0px 0px 15px;
+}
+
+.box-shadow-4{
+    box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
+}
 
 .text-shadow {
     text-shadow: 0 2px 4px rgba(0,0,0,0.10);
@@ -30,13 +58,13 @@
 
 .button_1 {
     background-image: linear-gradient(to left,var(--tw-gradient-stops));
-    --tw-gradient-from: #ff46aa;
+    --tw-gradient-from: #5e7c00;
     --tw-gradient-stops: var(--tw-gradient-from),var(--tw-gradient-to,rgba(255,70,170,0));
-    --tw-gradient-to: rgba(255,70,170,.6);
+   
     text-transform: uppercase;
     padding: 10px 2rem;
     transition: all 50ms linear;
-    box-shadow: 0 -1px 0 hsl(0deg 0% 100% / 61%), 0 2px 0 rgb(0 0 0 / 20%);
+    box-shadow: 0 -1px 0 hsl(0deg 0% 100% / 61%), 0 3px 0 rgb(148 197 103 / 60%);
     left: 0;
     top: 1px;
     right: 0;
@@ -58,4 +86,75 @@
     top: 0;
     right: 16px;
     bottom: 0;
+}
+
+
+.button_secondary {
+    background-image:linear-gradient(to bottom,var(--tw-gradient-stops));
+    --tw-gradient-from:#554ea7;
+    --tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to,rgba(85,78,167,0));
+    --tw-gradient-to:#384297;
+  }
+  
+  .button_secondary:hover:disabled {
+    --tw-bg-opacity:1;
+    background-color:rgb(255 70 170/var(--tw-bg-opacity));
+  }
+  
+  .button_secondary .button_volume {
+    background-image:linear-gradient(to bottom,var(--tw-gradient-stops));
+    --tw-gradient-from:#554ea7;
+    --tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to,rgba(85,78,167,0));
+    --tw-gradient-to:#384297;
+  }
+  
+  .button_secondary .button_overlay {
+    background-color:#2527794d;
+  }
+  
+
+  .button_button__cnvYP {
+    display:inline-flex;
+    flex-shrink:0;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    font-weight:700;
+  }
+  
+  .button_button__cnvYP:focus {
+    outline:2px solid transparent;
+    outline-offset:2px;
+  }
+  
+  .button_button__cnvYP:disabled {
+    cursor:not-allowed;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+    opacity:.5;
+  }
+  
+  .button_button__cnvYP {
+    position:relative;
+    overflow:hidden;
+    text-shadow:0 2px 0 rgba(0,0,0,.2);
+    box-shadow: 0 -1px 0 hsl(0deg 0% 100% / 61%), 0 2px 0 rgb(0 0 0 / 20%);
+  }
+  
+  .button_button__cnvYP:active .button_overlay__l4msz {
+    left:-25px;
+    right:-25px;
+  }
+
+
+  .chu-vang {
+    color: #ffffff;
+    margin-bottom: 10px;
+    background: #7e6c46;
+    padding: 0px 10px;
+    border-radius: 3px;
+    font-size: 16px;
+    border: 1px solid #ccad70;
 }

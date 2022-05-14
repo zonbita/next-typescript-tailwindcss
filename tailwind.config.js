@@ -8,8 +8,12 @@ module.exports = {
     extend: {
       colors:{
         red: "#fff",
-      }
+      },
+      screens: {
+        'msm': {'max': '767px'},
+      },
     },
+
   },
   plugins: [],
 }

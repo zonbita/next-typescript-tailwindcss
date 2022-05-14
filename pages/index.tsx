@@ -6,7 +6,7 @@ import Home from './Home'
 
 const Index: NextPage = () => {
   return (
-    <><div className=' overflow-y-auto overflow-x-hidden'>
+    <><div className='bg-black overflow-y-auto overflow-x-hidden'>
       <Header/>
       <Home/>
       <Footer/>
