@@ -40,12 +40,6 @@ function Video() {
                     <div className='flex flex-col justify-start items-center p-0 md:p-5 w-[400px] mx-6 md:w-full h-full' data-aos='fade-up'>
        
                    
-                                            <iframe width="500" height="315" src="https://www.youtube.com/embed/IKZEmLvYVF0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-                                            <svg width="20" height="20" viewBox="0 0 18 20" fill="none" xmlns="http://www.w3.org/2000/svg" >
-                                                <path d="M16.2846 7.40192C18.2846 8.55663 18.2846 11.4434 16.2846 12.5981L4.5 19.4019C2.5 20.5566 1.26184e-07 19.1132 2.27131e-07 16.8038L8.21942e-07 3.19615C9.22889e-07 0.88675 2.5 -0.556624 4.5 0.598076L16.2846 7.40192Z" fill="white"></path>
-                                            </svg>
-                                            </iframe>
-                                     
                                  
                           
                     </div>
