@@ -1,8 +1,10 @@
 import React from 'react'
 
-interface Props {}
+interface Props {
 
-function Projects(props: Props) {
+}
+
+function SkinItem(props: Props) {
     const {} = props
 
     return (
@@ -10,4 +12,4 @@ function Projects(props: Props) {
     )
 }
 
-export default Projects
+export default SkinItem

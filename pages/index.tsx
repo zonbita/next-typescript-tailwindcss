@@ -1,12 +1,12 @@
 import type { NextPage } from 'next'
-import Footer from './Component/footer'
-import Header from './Component/header'
-import Home from './Home'
-
+import Footer from '../Components/footer'
+import Header from '../Components/header'
+import Home from '../private/Home'
 
 const Index: NextPage = () => {
   return (
-    <><div className='bg-black overflow-y-auto overflow-x-hidden'>
+      <>
+      <div className='background-color3 overflow-y-auto overflow-x-hidden'>
       <Header/>
       <Home/>
       <Footer/>
