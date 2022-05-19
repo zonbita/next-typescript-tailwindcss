@@ -1,5 +1,6 @@
+import Link from 'next/link'
 import React from 'react'
-
+Link
 function Video() {
     return (
         <>
@@ -19,20 +20,20 @@ function Video() {
                         <p className="text-white text-table opacity-80 mb-8 text-center md:text-left">Backed by the blockchain, gives you complete ownership over your in-game assets. Every successful capture, farmed material, or crafted item is a non-fungible token (NFT) minted and stored in your crypto wallet. Each NFT is verifiable on the Ethereum blockchain, proving your ownership of that digital asset. By having true custody of your assets—versus them belonging to the game—you have the power to collect and trade NFTs in the marketplace at your discretion..</p>
                         <p className="text-white text-table opacity-80 mb-[42px] text-center md:text-left"> Play2Earn economy and addictive gameplay mechanics.</p>
                         <div className="md:max-w-[80%] md:flex-row justify-center items-center md:justify-start md:items-start gap-8 flex flex-col">
-                            <a target="_blank" className="hover:text-primary " href="https://">
+                            <Link  target="_blank" className="hover:text-primary " href="https://">
                                 <button className="button_button button_primary button_md__gRK3_ uppercase flex-1 w-[220px] md:w-auto text-[14px] rounded">
                                     <div className="button_volume"></div>
                                     <div className="button_overlay"></div>
                                     <div className="z-10  flex justify-center items-center w-full h-full">Play Demo</div>
                                 </button>
-                            </a>
-                            <a target="_blank" className="hover:text-primary " href="https://">
+                            </Link >
+                            <Link target="_blank" className="hover:text-primary " href="https://">
                                 <button className="button_button button_secondarybutton_md__gRK3_ uppercase flex-1 w-[220px] md:w-auto text-[14px] rounded">
                                     <div className="button_volume"></div>
                                     <div className="button_overlay"></div>
                                     <div className="z-10  flex justify-center items-center w-full h-full">Read Whitepaper</div>
                                 </button>
-                            </a>
+                            </Link>
                         </div>
                     </div>
                     

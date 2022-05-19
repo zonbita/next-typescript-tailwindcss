@@ -2,6 +2,7 @@ import Image from "next/image"
 import Link from "next/link"
 import { useEffect } from "react"
 import useSWR from 'swr'
+import React from 'react';
 
 // export async function getServerSideProps() {
 //   const res = await fetch(`https://picsum.photos/v2/list?page=2&limit=100`)

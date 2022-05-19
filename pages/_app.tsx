@@ -4,6 +4,7 @@ import { ReactElement, ReactNode, useEffect } from "react";
 import { NextPage } from "next";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import React from 'react';
 
 type NextPageWithLayout = NextPage & {
   getLayout?: (page: ReactElement) => ReactNode;
