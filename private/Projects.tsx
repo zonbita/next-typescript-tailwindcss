@@ -7,6 +7,7 @@ function Projects(props: Props) {
     const {} = props
 
     return (
+        <section id='Projects' data-scroll-index="1">
         <div className='relative flex justify-center items-center py-20'>
             <div className='max-w-[1200px] text-white w-full h-full'>
                 <div className='animate-bounce' data-aos='fade-up'>
@@ -42,6 +43,7 @@ function Projects(props: Props) {
                 </div>
             </div>
         </div>
+        </section>
     )
 }
 

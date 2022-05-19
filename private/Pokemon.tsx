@@ -22,7 +22,7 @@ function Pokemon() {
     }, [])
 
     return (
-        <>
+        <section id='Services'>
         <div className='background-color4 animation-1 p-10 uppercase'>
             <h2 className="text-white text-center up"><span className="text-primary ">Pokemon List</span><span> - Fetch API </span></h2>    
             </div>
@@ -49,7 +49,7 @@ function Pokemon() {
                     </div>
                 </div>
             </ul>
-        </>
+        </section>
     )
 }
 

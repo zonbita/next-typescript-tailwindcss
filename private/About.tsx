@@ -9,7 +9,7 @@ function About() {
       };
 
     return (
-        <>     
+        <section id='About'>     
             <div className="min-h-[100vh] h-fit relative flex justify-center items-center flex-col">
                 <div className="bg-space absolute top-0 left-0 flex flex-col w-full h-full bg-cover bg-no-repeat bg-bottom" style={styles.container} />
 
@@ -50,7 +50,7 @@ function About() {
                 </div>  
 
             </div>
-        </>
+        </section>
     )
 }
 

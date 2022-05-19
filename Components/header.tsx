@@ -27,19 +27,19 @@ export default function Header(){
                   <div className="flex-1 flex justify-center items-center ml-auto">
                   <ul className="msm:hidden flex flex-col mt-4 md:flex-row md:space-x-9 md:mt-0 md:text-sm md:font-medium ">
                         <li>
-                          <a href="#" className="menu-headerLink">Home</a>
+                          <a href="/" className="menu-headerLink">Home</a>
                         </li>
                         <li>
-                          <a href="#" className="menu-headerLink">About</a>
+                          <a href="#About" className="menu-headerLink">About</a>
                         </li>
                         <li>
-                          <a href="#" className="menu-headerLink">Services</a>
+                          <a href="#Services" className="menu-headerLink">Services</a>
                         </li>
                         <li>
-                          <a href="#" className="menu-headerLink">Projects</a>
+                          <a href="#Projects" data-scroll-nav="1" className="menu-headerLink">Projects</a>
                         </li>
                         <li>
-                          <a href="#" className="menu-headerLink">Contact</a>
+                          <a href="#Contact" className="menu-headerLink">Contact</a>
                         </li>
                 </ul>
                  

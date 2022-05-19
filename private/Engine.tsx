@@ -4,6 +4,7 @@ import C_EngineItem from '../Components/C_EngineItem'
 
 function Engine() {
     return (
+        <section id='Contact'>
         <div className="relative justify-center overflow-hidden  flex-col text-white items-center flex w-full h-full ">
             <div className="max-w-[1200px] text-white relative flex flex-col w-full h-full m-20 md:m-15 px-4 md:px-15 lg:p-4">
                 <h2 className="text-white text-center up"><span className="text-primary uppercase">Languages</span><span className='uppercase'> and Tool</span></h2>
@@ -28,6 +29,7 @@ function Engine() {
                     </div>
             </div>
         </div>
+        </section>
     )
 }
 
