@@ -26,26 +26,28 @@ function Pokemon() {
         <div className='background-color4 animation-1 p-10 uppercase'>
             <h2 className="text-white text-center up"><span className="text-primary ">Pokemon List</span><span> - Fetch API </span></h2>    
             </div>
-            <ul className='flex justify-center items-center p-5'><div className='flex flex-row'>
-            <div className='grid grid-cols-2 md:grid-cols-4'> 
-                {pokemon?.map((p:any, index:number) => (
-                    <li className='p-2 md:p-5' key={index} data-aos='fade-up-right' data-aos-once='false'>
-                        <Link href={`/pokemon?id=${index + 1}`}>
-                            <a className="box-content-2 border border-[#ca8d0a] my-4 p-2 md:p-10 hover:shadow-md capitalize flex items-center text-2lg  rounded-md">
-                                <img
-                                    src={p.image}
-                                    alt={p.name}
-                                    className="w-20 h-20 mr-3"
-                                />
-                                <span className="mr-2 font-bold">
-                                    {index + 1}.
-                                </span>
-                                {p.name}
-                            </a>
-                        </Link>
-                    </li>
-                ))}
-                </div></div>
+            <ul className='flex justify-center items-center p-5'>
+                <div className='flex flex-row'>
+                    <div className='grid grid-cols-2 md:grid-cols-4'> 
+                        {pokemon?.map((p:any, index:number) => (
+                            <li className='p-2 md:p-5' key={index} data-aos='fade-up-right' data-aos-once='false'>
+                                <Link href={`/pokemon?id=${index + 1}`}>
+                                    <a className="box-content-2 border border-[#ca8d0a] my-4 p-2 md:p-10 hover:shadow-md capitalize flex items-center text-2lg  rounded-md">
+                                        <img
+                                            src={p.image}
+                                            alt={p.name}
+                                            className="w-12 md:w-20 h-15 md:h-20 md:mr-3"
+                                        />
+                                        <span className="mr-2 font-bold">
+                                            {index + 1}.
+                                        </span>
+                                        {p.name}
+                                    </a>
+                                </Link>
+                            </li>
+                        ))}
+                    </div>
+                </div>
             </ul>
         </>
     )

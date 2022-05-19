@@ -15,7 +15,6 @@ export default function Home(){
         <About/>
         <Pokemon/>
         <Projects/>
-        <Video/>
         <News/>
         <Engine/>
         </>

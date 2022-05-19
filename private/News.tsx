@@ -13,7 +13,7 @@ function News(props: Props) {
                     <div className=''>
                         <div className='grid md:grid-cols-2 w-full gap-5 p-5 md:p-0'>
                             
-                            <div className='filter-1 box-content-1 pt-5 md:p-12 flex justify-center items-center flex-col' data-aos='fade-up'>
+                            <div className='filter-1 box-content-1 p-5 md:p-12 flex justify-center items-center flex-col' data-aos='fade-up'>
                                 <div className='border-[7px] border-[#5d47d4] shadow-2xl'>
                                     <Image layout='intrinsic' loading='lazy' src={`/Image/nextjs1.jpg`} width={500} height={300} alt="logo" />
                                 </div>
@@ -25,7 +25,7 @@ function News(props: Props) {
                                 </div>
                             </div>
 
-                            <div className='filter-1 box-content-1 pt-5 md:p-12 flex justify-center items-center flex-col' data-aos='fade-up'>
+                            <div className='filter-1 box-content-1 p-5 md:p-12 flex justify-center items-center flex-col' data-aos='fade-up'>
                             <div className='border-[7px] border-[#5d47d4] shadow-2xl'><Image layout='intrinsic' loading='lazy' src={`/Image/nextjs2.jpg`} width={500} height={300} alt="logo" /></div>
                                     <div className='mt-10 leading-7 p-5'>
                                         <p className="">Earn crypto in ZON tokens as 
@@ -44,7 +44,7 @@ function News(props: Props) {
 
                         <div className='grid md:grid-cols-3 w-full gap-5 p-5 md:p-0'>
                             
-                            <div className='filter-1 box-content-1 pt-5 md:p-12 flex justify-center items-center flex-col' data-aos='fade-up'>
+                            <div className='filter-1 box-content-1 p-5 md:p-12 flex justify-center items-center flex-col' data-aos='fade-up'>
                                 <div className='border-[7px] border-[#5d47d4] shadow-2xl'>
                                     <Image layout='intrinsic' loading='lazy' src={`/Image/nextjs1.jpg`} width={500} height={300} alt="logo" />
                                 </div>
@@ -56,7 +56,7 @@ function News(props: Props) {
                                 </div>
                             </div>
 
-                            <div className='filter-1 box-content-1 pt-5 md:p-12 flex justify-center items-center flex-col' data-aos='fade-up'>
+                            <div className='filter-1 box-content-1 p-5 md:p-12 flex justify-center items-center flex-col' data-aos='fade-up'>
                             <div className='border-[7px] border-[#5d47d4] shadow-2xl'><Image layout='intrinsic' loading='lazy' src={`/Image/nextjs2.jpg`} width={500} height={300} alt="logo" /></div>
                                     <div className='mt-10 leading-7 p-5'>
                                         <p className="">Earn crypto in ZON tokens as 
@@ -66,7 +66,7 @@ function News(props: Props) {
                                     </div>
                             </div>
 
-                            <div className='filter-1 box-content-1 pt-5 md:p-12 flex justify-center items-center flex-col' data-aos='fade-up'>
+                            <div className='filter-1 box-content-1 p-5 md:p-12 flex justify-center items-center flex-col' data-aos='fade-up'>
                             <div className='border-[7px] border-[#5d47d4] shadow-2xl'><Image layout='intrinsic' loading='lazy' src={`/Image/nextjs2.jpg`} width={500} height={300} alt="logo" /></div>
                                     <div className='mt-10 leading-7 p-5'>
                                         <p className="">Earn crypto in ZON tokens as 
@@ -82,7 +82,7 @@ function News(props: Props) {
 
                     <div className='py-10'>
                             
-                            <div className='filter-1 box-content-1 pt-5 md:p-12 flex justify-center items-center flex-col' data-aos='fade-up'>
+                            <div className='filter-1 box-content-1 p-5 md:p-12 flex justify-center items-center flex-col' data-aos='fade-up'>
                                 <div className='border-[7px] border-[#5d47d4] shadow-2xl shadow-[#adff6a]'>
                                     <Image layout='intrinsic' loading='lazy' src={`/Image/nextjs2.jpg`} width={500} height={300} alt="logo" />
                                 </div>
